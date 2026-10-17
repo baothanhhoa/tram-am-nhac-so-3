@@ -1,200 +1,151 @@
-{
-  "siteTitle": "Trạm Âm nhạc số 3 – Mơ về nơi xa lắm",
-  "metaDescription": "Chương trình âm nhạc Trạm Âm nhạc số 3 – Mơ về nơi xa lắm tại Thanh Hóa.",
-  "theme": {
-    "background": "#080710",
-    "panel": "#11101c",
-    "text": "#f8f6ff",
-    "muted": "#b8b3c9",
-    "primary": "#ff3d8d",
-    "secondary": "#9c6bff",
-    "maxWidth": 1200
-  },
-  "logo": {
-    "imageUrl": "",
-    "text": "THANH HÓA FMF",
-    "tagline": "FASHION · MUSIC · LIFESTYLE",
-    "link": "#home"
-  },
-  "navigation": [
-    {
-      "label": "Trang chủ",
-      "url": "#home",
-      "enabled": true
-    },
-    {
-      "label": "Giới thiệu",
-      "url": "#chuong-trinh",
-      "enabled": true
-    },
-    {
-      "label": "Ca sĩ",
-      "url": "#ca-si",
-      "enabled": true
-    },
-    {
-      "label": "Bài hát",
-      "url": "#bai-hat",
-      "enabled": true
-    }
-  ],
-  "hero": {
-    "enabled": true,
-    "backgroundImage": "assets/hero-background.jpg",
-    "bannerImage": "assets/hero-banner.jpg",
-    "bannerAlt": "Banner Trạm Âm nhạc số 3 – Mơ về nơi xa lắm",
-    "eventTime": "20:10",
-    "eventDate": "2026-10-23T20:10:00+07:00",
-    "countdownLabel": "ĐẾM NGƯỢC ĐẾN CHƯƠNG TRÌNH",
-    "buttonLabel": "Xem chi tiết",
-    "buttonUrl": "#chuong-trinh",
-    "showCountdown": true
-  },
-  "programme": {
-    "enabled": true,
-    "id": "chuong-trinh",
-    "menuLabel": "Giới thiệu",
-    "eyebrow": "Câu chuyện sự kiện",
-    "title": "Chương trình",
-    "description": "Một không gian hội tụ thời trang, âm nhạc và phong cách sống dành cho cộng đồng yêu nghệ thuật.",
-    "subEyebrow": "Điểm hẹn cảm xúc",
-    "headline": "Thăng hoa cùng những sắc màu sáng tạo",
-    "paragraph1": "Thanh Hóa Fashion & Music Festival là điểm gặp gỡ của âm nhạc, thời trang và phong cách sống. Chương trình hướng tới một trải nghiệm nghệ thuật trẻ trung, giàu năng lượng, nơi nghệ sĩ, thương hiệu và khán giả cùng kết nối.",
-    "paragraph2": "Chương trình là điểm hẹn dành cho khán giả yêu âm nhạc và những cảm xúc chân thành.",
-    "tags": [
-      {
-        "text": "Trình diễn thời trang"
-      },
-      {
-        "text": "Âm nhạc trực tiếp"
-      },
-      {
-        "text": "Kết nối sáng tạo"
-      }
-    ],
-    "videoTitle": "Video chương trình",
-    "videoDescription": "Những khoảnh khắc và nội dung nổi bật của chương trình.",
-    "youtubeUrl": ""
-  },
-  "singers": {
-    "enabled": true,
-    "eyebrow": "Line-up",
-    "title": "Ca sĩ",
-    "description": "Những ca sĩ góp mặt tại đêm nhạc",
-    "buttonLabel": "Danh sách bài hát",
-    "buttonUrl": "#bai-hat",
-    "items": [
-      {
-        "name": "Hoành Nhật Minh",
-        "role": "Ca sĩ",
-        "image": "assets/hoanh-nhat-minh.jpg",
-        "alt": "Ảnh Hoành Nhật Minh"
-      },
-      {
-        "name": "Công Đại",
-        "role": "Ca sĩ",
-        "image": "assets/cong-dai.jpg",
-        "alt": "Ảnh Công Đại"
-      },
-      {
-        "name": "Như Quỳnh",
-        "role": "Ca sĩ",
-        "image": "assets/nhu-quynh.jpg",
-        "alt": "Ảnh Như Quỳnh"
-      },
-      {
-        "name": "Huệ Anh",
-        "role": "Ca sĩ",
-        "image": "assets/hue-anh.jpg",
-        "alt": "Ảnh Huệ Anh"
-      },
-      {
-        "name": "Chill Band",
-        "role": "Nhóm nhạc",
-        "image": "assets/chill-band.jpg",
-        "alt": "Ảnh Chill Band"
-      },
-      {
-        "name": "Thùy Dung",
-        "role": "Ca sĩ / Dẫn chương trình",
-        "image": "assets/thuy-dung.jpg",
-        "alt": "Ảnh Thùy Dung"
-      }
-    ]
-  },
-  "songs": {
-    "enabled": true,
-    "eyebrow": "Setlist",
-    "title": "Các bài hát trong chương trình",
-    "description": "Những giai điệu sẽ tạo nên cảm xúc của đêm nhạc.",
-    "items": [
-      {
-        "title": "Hà Nội và em khi thu chớm đông sang",
-        "performer": ""
-      },
-      {
-        "title": "Im lặng đêm Hà Nội",
-        "performer": ""
-      },
-      {
-        "title": "Em ơi Hà Nội phố",
-        "performer": ""
-      },
-      {
-        "title": "Hà Nội ngày trở về",
-        "performer": ""
-      },
-      {
-        "title": "Nỗi nhớ mùa đông",
-        "performer": ""
-      },
-      {
-        "title": "Một dại khờ, một tôi",
-        "performer": ""
-      },
-      {
-        "title": "Biển, nỗi nhớ và em",
-        "performer": ""
-      },
-      {
-        "title": "Thương lắm tóc dài ơi",
-        "performer": ""
-      },
-      {
-        "title": "Mơ về nơi xa lắm",
-        "performer": ""
-      },
-      {
-        "title": "Khúc mùa thu",
-        "performer": ""
-      },
-      {
-        "title": "Đâu phải bởi mùa thu",
-        "performer": ""
-      },
-      {
-        "title": "Mùa thu dấu em",
-        "performer": ""
-      },
-      {
-        "title": "Về lại phố xưa",
-        "performer": ""
-      },
-      {
-        "title": "Điều giản dị",
-        "performer": ""
-      }
-    ]
-  },
-  "footer": {
-    "enabled": true,
-    "brandTitle": "THANH HÓA FMF",
-    "tagline": "FASHION · MUSIC · LIFESTYLE",
-    "description": "Trạm Âm nhạc số 3 – Mơ về nơi xa lắm. Một đêm nhạc của những giai điệu và cảm xúc.",
-    "email": "",
-    "phone": "",
-    "address": "",
-    "copyright": "© 2026 Trạm Âm nhạc số 3. Bảo lưu mọi quyền.",
-    "note": ""
-  }
-}
+media:
+  input: media
+  output: /media
+  extensions: [jpg, jpeg, png, webp, svg]
+
+content:
+  - name: site
+    label: Cấu hình landing page
+    type: file
+    path: data/site.json
+    format: json
+    fields:
+      - name: siteTitle
+        label: Tên website / tiêu đề trình duyệt
+        type: string
+        required: true
+      - name: metaDescription
+        label: Mô tả SEO
+        type: text
+      - name: theme
+        label: Màu sắc và chiều rộng
+        type: object
+        fields:
+          - { name: background, label: Màu nền (HEX), type: string, description: "Ví dụ #080710" }
+          - { name: panel, label: Màu khối (HEX), type: string }
+          - { name: text, label: Màu chữ (HEX), type: string }
+          - { name: muted, label: Màu chữ phụ (HEX), type: string }
+          - { name: primary, label: Màu nhấn chính (HEX), type: string }
+          - { name: secondary, label: Màu nhấn phụ (HEX), type: string }
+          - { name: maxWidth, label: Chiều rộng nội dung (px), type: number }
+      - name: logo
+        label: Logo và nhận diện
+        type: object
+        fields:
+          - { name: imageUrl, label: URL logo (để trống nếu dùng chữ), type: string }
+          - { name: text, label: Tên hiển thị khi không có logo ảnh, type: string }
+          - { name: tagline, label: Dòng chữ phụ, type: string }
+          - { name: link, label: Liên kết logo, type: string }
+      - name: navigation
+        label: Menu điều hướng (có thể thêm/xóa/sắp xếp)
+        type: object
+        list:
+          min: 0
+          max: 12
+          collapsible:
+            collapsed: true
+            summary: "{label}"
+        fields:
+          - { name: label, label: Tên mục menu, type: string, required: true }
+          - { name: url, label: Đường dẫn hoặc ID section, type: string, required: true, description: "Ví dụ #home hoặc https://..." }
+          - { name: enabled, label: Hiển thị mục menu, type: boolean }
+      - name: hero
+        label: Section 1 — Banner / thời gian
+        type: object
+        fields:
+          - { name: enabled, label: Hiển thị section, type: boolean }
+          - { name: backgroundImage, label: URL ảnh nền chìm, type: string, required: true, description: "Có thể dùng assets/hero-background.jpg hoặc URL HTTPS từ server ảnh." }
+          - { name: bannerImage, label: URL banner nổi, type: string, description: "Có thể dùng URL tuyệt đối HTTPS hoặc đường dẫn trong repository." }
+          - { name: bannerAlt, label: Mô tả banner, type: string }
+          - { name: eventTime, label: Giờ tổ chức, type: string }
+          - { name: eventDate, label: Ngày giờ ISO (có múi giờ), type: string, description: "Ví dụ 2026-10-23T20:10:00+07:00" }
+          - { name: countdownLabel, label: Nhãn đồng hồ đếm ngược, type: string }
+          - { name: showCountdown, label: Hiển thị đồng hồ đếm ngược, type: boolean }
+          - { name: buttonLabel, label: Chữ trên nút, type: string }
+          - { name: buttonUrl, label: Liên kết nút, type: string }
+      - name: programme
+        label: Section 2 — Chương trình / YouTube
+        type: object
+        fields:
+          - { name: enabled, label: Hiển thị section, type: boolean }
+          - { name: id, label: ID section (để menu liên kết), type: string }
+          - { name: eyebrow, label: Nhãn nhỏ phía trên, type: string }
+          - { name: title, label: Tiêu đề section, type: string }
+          - { name: description, label: Mô tả dưới tiêu đề, type: text }
+          - { name: subEyebrow, label: Nhãn nhỏ trong nội dung, type: string }
+          - { name: headline, label: Tiêu đề nội dung, type: string }
+          - { name: paragraph1, label: Đoạn nội dung 1, type: text }
+          - { name: paragraph2, label: Đoạn nội dung 2, type: text }
+          - name: tags
+            label: Thẻ chủ đề (có thể thêm/xóa)
+            type: object
+            list: true
+            fields:
+              - { name: text, label: Nội dung thẻ, type: string }
+          - { name: videoTitle, label: Tiêu đề video, type: string }
+          - { name: videoDescription, label: Mô tả video, type: text }
+          - { name: youtubeUrl, label: URL YouTube hoặc ID video, type: string, description: "Ví dụ https://www.youtube.com/watch?v=xxxxxxxxxxx" }
+      - name: singers
+        label: Section 3 — Ca sĩ
+        type: object
+        fields:
+          - { name: enabled, label: Hiển thị section, type: boolean }
+          - { name: eyebrow, label: Nhãn nhỏ, type: string }
+          - { name: title, label: Tiêu đề section, type: string }
+          - { name: description, label: Mô tả section, type: text }
+          - { name: buttonLabel, label: Nút phía dưới danh sách, type: string }
+          - { name: buttonUrl, label: Liên kết nút, type: string }
+          - name: items
+            label: Danh sách ca sĩ (có thể thêm/xóa/sắp xếp)
+            type: object
+            list:
+              min: 0
+              max: 50
+              collapsible:
+                collapsed: true
+                summary: "{name}"
+            fields:
+              - { name: name, label: Tên ca sĩ / nhóm nhạc, type: string, required: true }
+              - { name: role, label: Vai trò, type: string }
+              - { name: image, label: URL ảnh chân dung, type: string, description: "Dán URL ảnh HTTPS hoặc đường dẫn assets/ trong repository." }
+              - { name: alt, label: Mô tả ảnh, type: string }
+              - { name: description, label: Mô tả ngắn (không bắt buộc), type: text }
+      - name: songs
+        label: Section 4 — Danh sách bài hát
+        type: object
+        fields:
+          - { name: enabled, label: Hiển thị section, type: boolean }
+          - { name: eyebrow, label: Nhãn nhỏ, type: string }
+          - { name: title, label: Tiêu đề section, type: string }
+          - { name: description, label: Mô tả section, type: text }
+          - name: items
+            label: Danh sách bài hát (có thể thêm/xóa/sắp xếp)
+            type: object
+            list:
+              min: 0
+              max: 100
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - { name: title, label: Tên bài hát, type: string, required: true }
+              - { name: performer, label: Ca sĩ trình bày (không bắt buộc), type: string }
+      - name: footer
+        label: Footer — Chân trang
+        type: object
+        fields:
+          - { name: enabled, label: Hiển thị footer, type: boolean }
+          - { name: brandTitle, label: Tên thương hiệu, type: string }
+          - { name: tagline, label: Dòng chữ phụ, type: string }
+          - { name: description, label: Mô tả footer, type: text }
+          - { name: email, label: Email liên hệ, type: string }
+          - { name: phone, label: Điện thoại, type: string }
+          - { name: address, label: Địa chỉ, type: text }
+          - { name: copyright, label: Dòng bản quyền, type: string }
+          - { name: note, label: Ghi chú bên phải chân trang, type: string }
+          - { name: contactLabel, label: Nhãn liên kết liên hệ, type: string }
+          - { name: contactUrl, label: URL liên hệ, type: string }
+
+settings:
+  content:
+    merge: true
