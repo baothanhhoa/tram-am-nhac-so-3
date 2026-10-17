@@ -11,41 +11,42 @@
     "maxWidth": 1200
   },
   "logo": {
-    "imageUrl": "/assets/logo.png",
-    "text": "Báo và Phát thanh, truyền hình Thanh Hóa",
+    "imageUrl": "",
+    "text": "THANH HÓA FMF",
+    "tagline": "FASHION · MUSIC · LIFESTYLE",
     "link": "#home"
   },
   "navigation": [
     {
-      "label": "TRANG CHỦ",
+      "label": "Trang chủ",
       "url": "#home",
       "enabled": true
     },
     {
-      "label": "GIỚI THIỆU",
+      "label": "Giới thiệu",
       "url": "#chuong-trinh",
       "enabled": true
     },
     {
-      "label": "CA SĨ",
+      "label": "Ca sĩ",
       "url": "#ca-si",
       "enabled": true
     },
     {
-      "label": "BÀI HÁT",
+      "label": "Bài hát",
       "url": "#bai-hat",
       "enabled": true
     }
   ],
   "hero": {
     "enabled": true,
-    "backgroundImage": "/assets/hero-background.jpg",
-    "bannerImage": "/assets/hero-banner.jpg",
+    "backgroundImage": "assets/hero-background.jpg",
+    "bannerImage": "assets/hero-banner.jpg",
     "bannerAlt": "Banner Trạm Âm nhạc số 3 – Mơ về nơi xa lắm",
     "eventTime": "20:10",
     "eventDate": "2026-10-23T20:10:00+07:00",
     "countdownLabel": "ĐẾM NGƯỢC ĐẾN CHƯƠNG TRÌNH",
-    "buttonLabel": "XEM CHI TIẾT",
+    "buttonLabel": "Xem chi tiết",
     "buttonUrl": "#chuong-trinh",
     "showCountdown": true
   },
@@ -53,26 +54,27 @@
     "enabled": true,
     "id": "chuong-trinh",
     "menuLabel": "Giới thiệu",
+    "eyebrow": "Câu chuyện sự kiện",
     "title": "Chương trình",
-    "description": "Trạm âm nhạc: “Mỗi bản nhạc - Một câu chuyện; Mỗi điểm dừng - Một tri kỷ\"",
-    "subEyebrow": "Điểm hẹn cảm xúc Tháng 10",
+    "description": "Một không gian hội tụ thời trang, âm nhạc và phong cách sống dành cho cộng đồng yêu nghệ thuật.",
+    "subEyebrow": "Điểm hẹn cảm xúc",
     "headline": "Thăng hoa cùng những sắc màu sáng tạo",
-    "paragraph1": "Trạm Âm nhạc số 3 với chủ đề  “MƠ VỀ NƠI XA LẮM”….Một cuộc hẹn với âm nhạc Phú Quang. Một chuyến trở về với tình yêu, với Hà Nội và những miền ký ức không phai. Để giữa những bộn bề của hiện tại, ta có thể chậm lại một chút… lắng nghe lòng mình, nhớ về một người, một nơi, một thời đã cũ…và những điều tưởng đã xa xôi.",
+    "paragraph1": "Thanh Hóa Fashion & Music Festival là điểm gặp gỡ của âm nhạc, thời trang và phong cách sống. Chương trình hướng tới một trải nghiệm nghệ thuật trẻ trung, giàu năng lượng, nơi nghệ sĩ, thương hiệu và khán giả cùng kết nối.",
     "paragraph2": "Chương trình là điểm hẹn dành cho khán giả yêu âm nhạc và những cảm xúc chân thành.",
     "tags": [
       {
-        "text": "Âm nhạc"
+        "text": "Trình diễn thời trang"
       },
       {
-        "text": "Cảm xúc"
+        "text": "Âm nhạc trực tiếp"
       },
       {
-        "text": "Sẻ chia"
+        "text": "Kết nối sáng tạo"
       }
     ],
     "videoTitle": "Video chương trình",
     "videoDescription": "Những khoảnh khắc và nội dung nổi bật của chương trình.",
-    "youtubeUrl": "https://www.youtube.com/watch?v=HYTslqbSEvE"
+    "youtubeUrl": ""
   },
   "singers": {
     "enabled": true,
@@ -85,37 +87,37 @@
       {
         "name": "Hoành Nhật Minh",
         "role": "Ca sĩ",
-        "image": "/assets/hoanh-nhat-minh.jpg",
+        "image": "assets/hoanh-nhat-minh.jpg",
         "alt": "Ảnh Hoành Nhật Minh"
       },
       {
         "name": "Công Đại",
         "role": "Ca sĩ",
-        "image": "/assets/cong-dai.jpg",
+        "image": "assets/cong-dai.jpg",
         "alt": "Ảnh Công Đại"
       },
       {
         "name": "Như Quỳnh",
         "role": "Ca sĩ",
-        "image": "/assets/nhu-quynh.jpg",
+        "image": "assets/nhu-quynh.jpg",
         "alt": "Ảnh Như Quỳnh"
       },
       {
         "name": "Huệ Anh",
         "role": "Ca sĩ",
-        "image": "/assets/hue-anh.jpg",
+        "image": "assets/hue-anh.jpg",
         "alt": "Ảnh Huệ Anh"
       },
       {
         "name": "Chill Band",
         "role": "Nhóm nhạc",
-        "image": "/assets/chill-band.jpg",
+        "image": "assets/chill-band.jpg",
         "alt": "Ảnh Chill Band"
       },
       {
         "name": "Thùy Dung",
-        "role": "MC",
-        "image": "/assets/thuy-dung.jpg",
+        "role": "Ca sĩ / Dẫn chương trình",
+        "image": "assets/thuy-dung.jpg",
         "alt": "Ảnh Thùy Dung"
       }
     ]
@@ -127,46 +129,60 @@
     "description": "Những giai điệu sẽ tạo nên cảm xúc của đêm nhạc.",
     "items": [
       {
-        "title": "Hà Nội và em khi thu chớm đông sang"
+        "title": "Hà Nội và em khi thu chớm đông sang",
+        "performer": ""
       },
       {
-        "title": "Im lặng đêm Hà Nội"
+        "title": "Im lặng đêm Hà Nội",
+        "performer": ""
       },
       {
-        "title": "Em ơi Hà Nội phố"
+        "title": "Em ơi Hà Nội phố",
+        "performer": ""
       },
       {
-        "title": "Hà Nội ngày trở về"
+        "title": "Hà Nội ngày trở về",
+        "performer": ""
       },
       {
-        "title": "Nỗi nhớ mùa đông"
+        "title": "Nỗi nhớ mùa đông",
+        "performer": ""
       },
       {
-        "title": "Một dại khờ, một tôi"
+        "title": "Một dại khờ, một tôi",
+        "performer": ""
       },
       {
-        "title": "Biển, nỗi nhớ và em"
+        "title": "Biển, nỗi nhớ và em",
+        "performer": ""
       },
       {
-        "title": "Thương lắm tóc dài ơi"
+        "title": "Thương lắm tóc dài ơi",
+        "performer": ""
       },
       {
-        "title": "Mơ về nơi xa lắm"
+        "title": "Mơ về nơi xa lắm",
+        "performer": ""
       },
       {
-        "title": "Khúc mùa thu"
+        "title": "Khúc mùa thu",
+        "performer": ""
       },
       {
-        "title": "Đâu phải bởi mùa thu"
+        "title": "Đâu phải bởi mùa thu",
+        "performer": ""
       },
       {
-        "title": "Mùa thu dấu em"
+        "title": "Mùa thu dấu em",
+        "performer": ""
       },
       {
-        "title": "Về lại phố xưa"
+        "title": "Về lại phố xưa",
+        "performer": ""
       },
       {
-        "title": "Điều giản dị"
+        "title": "Điều giản dị",
+        "performer": ""
       }
     ],
     "linksTitle": "Xem thêm",
@@ -174,32 +190,34 @@
       {
         "label": "Báo điện tử",
         "url": "https://baothanhhoa.vn/",
-        "enabled": false
+        "enabled": true
       },
       {
         "label": "Facebook",
         "url": "https://www.facebook.com/truyenhinhthanhhoa",
-        "enabled": false
+        "enabled": true
       },
       {
-        "label": "Tiktok",
+        "label": "TikTok",
         "url": "https://www.tiktok.com/@truyenhinhthanhhoa.ttv",
-        "enabled": false
+        "enabled": true
       },
       {
-        "label": "Youtube",
+        "label": "YouTube",
         "url": "https://www.youtube.com/@daiptththanhhoa",
-        "enabled": false
+        "enabled": true
       }
     ]
   },
   "footer": {
     "enabled": true,
-    "brandTitle": "Trạm âm nhạc",
-    "tagline": "Mỗi bản nhạc - Một câu chuyện, Mỗi điểm dừng - Một tri kỷ",
-    "copyright": "© 2026 Báo và Phát thanh, truyền hình Thanh Hóa. Bảo lưu mọi quyền.",
-    "address": "Đại lộ Hùng Vương, phường Hạc Thành, tỉnh Thanh Hóa",
-    "contactLabel": "Website",
-    "contactUrl": "https://baothanhhoa.vn/"
+    "brandTitle": "THANH HÓA FMF",
+    "tagline": "FASHION · MUSIC · LIFESTYLE",
+    "description": "Trạm Âm nhạc số 3 – Mơ về nơi xa lắm. Một đêm nhạc của những giai điệu và cảm xúc.",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "copyright": "© 2026 Trạm Âm nhạc số 3. Bảo lưu mọi quyền.",
+    "note": ""
   }
 }
