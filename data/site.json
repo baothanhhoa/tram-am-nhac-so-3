@@ -17,22 +17,22 @@
   },
   "navigation": [
     {
-      "label": "Trang chủ",
+      "label": "TRANG CHỦ",
       "url": "#home",
       "enabled": true
     },
     {
-      "label": "Giới thiệu",
+      "label": "GIỚI THIỆU",
       "url": "#chuong-trinh",
       "enabled": true
     },
     {
-      "label": "Ca sĩ",
+      "label": "CA SĨ",
       "url": "#ca-si",
       "enabled": true
     },
     {
-      "label": "Bài hát",
+      "label": "BÀI HÁT",
       "url": "#bai-hat",
       "enabled": true
     }
@@ -114,7 +114,7 @@
       },
       {
         "name": "Thùy Dung",
-        "role": "Ca sĩ / Dẫn chương trình",
+        "role": "MC",
         "image": "/assets/thuy-dung.jpg",
         "alt": "Ảnh Thùy Dung"
       }
