@@ -1,6 +1,6 @@
 media:
-  input: media
-  output: /media
+  input: assets
+  output: /assets
   extensions: [jpg, jpeg, png, webp, svg]
 
 content:
@@ -32,7 +32,12 @@ content:
         label: Logo và nhận diện
         type: object
         fields:
-          - { name: imageUrl, label: URL logo (để trống nếu dùng chữ), type: string }
+          - name: imageUrl
+            label: Logo (chọn hoặc tải ảnh lên)
+            type: image
+            options:
+              extensions: [png, jpg, jpeg, webp, svg]
+              rename: safe
           - { name: text, label: Tên hiển thị khi không có logo ảnh, type: string }
           - { name: tagline, label: Dòng chữ phụ, type: string }
           - { name: link, label: Liên kết logo, type: string }
@@ -54,8 +59,19 @@ content:
         type: object
         fields:
           - { name: enabled, label: Hiển thị section, type: boolean }
-          - { name: backgroundImage, label: URL ảnh nền chìm, type: string, required: true, description: "Có thể dùng assets/hero-background.jpg hoặc URL HTTPS từ server ảnh." }
-          - { name: bannerImage, label: URL banner nổi, type: string, description: "Có thể dùng URL tuyệt đối HTTPS hoặc đường dẫn trong repository." }
+          - name: backgroundImage
+            label: Ảnh nền chìm (chọn hoặc tải ảnh lên)
+            type: image
+            required: true
+            options:
+              extensions: [jpg, jpeg, png, webp]
+              rename: safe
+          - name: bannerImage
+            label: Banner nổi (chọn hoặc tải ảnh lên)
+            type: image
+            options:
+              extensions: [jpg, jpeg, png, webp]
+              rename: safe
           - { name: bannerAlt, label: Mô tả banner, type: string }
           - { name: eventTime, label: Giờ tổ chức, type: string }
           - { name: eventDate, label: Ngày giờ ISO (có múi giờ), type: string, description: "Ví dụ 2026-10-23T20:10:00+07:00" }
@@ -107,7 +123,12 @@ content:
             fields:
               - { name: name, label: Tên ca sĩ / nhóm nhạc, type: string, required: true }
               - { name: role, label: Vai trò, type: string }
-              - { name: image, label: URL ảnh chân dung, type: string, description: "Dán URL ảnh HTTPS hoặc đường dẫn assets/ trong repository." }
+              - name: image
+                label: Ảnh chân dung (chọn hoặc tải ảnh lên)
+                type: image
+                options:
+                  extensions: [jpg, jpeg, png, webp]
+                  rename: safe
               - { name: alt, label: Mô tả ảnh, type: string }
               - { name: description, label: Mô tả ngắn (không bắt buộc), type: text }
       - name: songs
