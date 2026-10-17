@@ -168,13 +168,35 @@
       {
         "title": "Điều giản dị"
       }
+    ],
+    "linksTitle": "Xem thêm",
+    "socialLinks": [
+      {
+        "label": "Báo điện tử",
+        "url": "https://baothanhhoa.vn/",
+        "enabled": false
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/truyenhinhthanhhoa",
+        "enabled": false
+      },
+      {
+        "label": "Tiktok",
+        "url": "https://www.tiktok.com/@truyenhinhthanhhoa.ttv",
+        "enabled": false
+      },
+      {
+        "label": "Youtube",
+        "url": "https://www.youtube.com/@daiptththanhhoa",
+        "enabled": false
+      }
     ]
   },
   "footer": {
     "enabled": true,
     "brandTitle": "Trạm âm nhạc",
     "tagline": "Mỗi bản nhạc - Một câu chuyện, Mỗi điểm dừng - Một tri kỷ",
-    "description": "Trạm Âm nhạc số 3 – Mơ về nơi xa lắm. Một đêm nhạc của những giai điệu và cảm xúc.",
     "copyright": "© 2026 Báo và Phát thanh, truyền hình Thanh Hóa. Bảo lưu mọi quyền.",
     "address": "Đại lộ Hùng Vương, phường Hạc Thành, tỉnh Thanh Hóa",
     "contactLabel": "Website",
